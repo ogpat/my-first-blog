@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Khadivah.com | Welcome </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+        <link href="/Users/MrHughes/GitHub/djangoblog/blog/static/css/index.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Original+Surfer|Quicksand|Spicy+Rice" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    </head>
+    <body>
+        <!-- Header -->
+        <header id="header"> 
+            <div id="content">
+                <div id="logo">
+                    <a href="">KHADIVAH</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#slide1" class="active" title="Next Section" >Home</a></li>
+                        <li><a href="#slide2" class="active" title="Next Section" >About Me</a></li>
+                        <li><a href="#slide3" class="active" title="Next Section" >Blog</a></li>
+                        <li><a href="#slide4" class="active" title="Next Section" >Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Slides -->
+
+        <div id="slide1"> 
+            <div class="content">
+                <div id="beach_waves"></div>
+                <h2>Welcome to</h2>
+                <h1>khadivah.com</h1>
+            </div>
+        </div>
+
+    <!-- About me section -->
+        <div id="slide2">
+            <div class="content">
+                <div class="about_me_container">
+                    <h2>I'm a Diva!</h2>
+                    <img id="self_portrait" src="/Users/MrHughes/GitHub/djangoblog/blog/static/images/khadijah.png" alt="Photo of Me">
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus sapien sit amet nulla convallis, vel viverra massa tempus. Mauris interdum tortor vitae elit cursus pulvinar. Phasellus at leo in leo auctor venenatis vitae tincidunt erat. Proin accumsan magna eu viverra dapibus. Aenean dignissim vestibulum eros, sed vulputate sapien. Sed.</p>
+                    
+                </div>
+            </div>
+        </div>
+    <!-- Blog Promotion -->
+        <div id="slide3">
+            <div class="content">
+                <div class="description_container">
+                    <h2>blog</h2>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi maximus sapien sit amet nulla convallis, vel viverra massa tempus. Mauris interdum tortor vitae elit cursus pulvinar. Phasellus at leo in leo auctor venenatis vitae tincidunt erat. Proin accumsan magna eu viverra dapibus. Aenean dignissim vestibulum eros, sed vulputate sapien. Sed.</p>
+                    <button type="button">let's go</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer area -->
+        <div id="slide4">
+            <div class="content">
+                <div class="contact_container">
+                    <h2>Keep in touch</h2>
+                    <form action="#">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your first name...">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="mail" placeholder="contact@example.com">
+                        <label for="body_message">Message</label>
+                        <textarea name="body" id="body_message" placeholder="Hi Khadijah..." style="height: 200px"></textarea>
+                        <input type="submit">
+
+                        
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+
+    
+    </body>
+</html>

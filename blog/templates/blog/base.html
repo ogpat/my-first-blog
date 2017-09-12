@@ -12,6 +12,9 @@
     </head>
     <body>
         <body>
+            <div id="headshot">
+                <img class ="head-shot" src="{% static "images/khadijah.png" %}" alt="My headshot">
+            </div>
     <div class="page-header">
         {% if user.is_authenticated %}
             <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>

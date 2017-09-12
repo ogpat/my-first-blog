@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: normal;
+    font-size: 55px;
+    text-align: center;
+    color: #004887;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+    color: #004887;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: 'Spicy Rice', cursive;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    margin: 5px 0;
+    padding: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.center { margin: 0 auto; }
+.content{ margin: 0 auto; width: 960px; }
+.clear { clear: both; }
+
+#header {
+    width: 100%;
+    background: url('/Users/MrHughes/GitHub/djangoblog/blog/static/images/header-bg.png');
+    height: 80px;
+    position: fixed;
+    margin-top: 0px;
+}
+#logo a {
+    font-family: 'Spicy Rice', cursive;
+    font-weight: normal;
+    font-size: 30px;
+    color: #004887;
+    float: left;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#logo a:hover{
+    color: #326295;
+    border-bottom: 2px solid #fff;
+
+}
+
+#nav {
+    width: 410px;
+    margin-top: 20px;
+    float: right;
+}
+
+#nav ul {
+list-style: none;
+display: block;
+margin: 0 auto;
+list-style: none;
+
+}
+
+#nav li {
+    margin-top: 9px;
+    float: left;
+    padding-left: 21px;
+    }
+
+#nav li a {
+    color: #fff;
+    opacity: .6;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Spicy Rice', cursive; 
+}
+
+#nav li a:active {
+    color: #fff;
+    opacity: 1;
+    border-bottom: 2px solid #fff;
+}
+
+#nav li a:hover { 
+    color: #fff; 
+    opacity: 1; 
+}
+
+.description {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+    margin: 50px auto;
+}
+
+.description_container {
+    width: 800px; 
+    margin: 0 auto; 
+}
+
+#slide1, #slide2, #slide3 {
+    width: 100%;
+}
+
+#slide1 {
+    background: url('/Users/MrHughes/GitHub/djangoblog/blog/static/images/Webp.net-resizeimage.jpg')no-repeat;
+    color: #fff;
+    height: 600px;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+}
+
+#slide2 {
+    background-color: #EAF2E3;
+    color: #333333;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 200px 0;
+}
+#self_portrait {
+
+    border-radius: 30%;
+    width: 416px;
+    height: 278px;
+}
+
+.about_me_container img{
+    position: center;
+    margin: auto;
+    display: block;
+    padding: 30px 0;
+}
+
+#slide3 {
+    background: url('/Users/MrHughes/GitHub/djangoblog/blog/static/images/jon-grogan-37496.jpg') 50% 0 no-repeat fixed;
+    color: #fff;
+    height: 600px;
+    padding: 170px 0 0 0;
+    background-size: cover;
+}
+
+#slide4 {
+    background-color: #EAF2E3;
+    height: 600px;
+    margin: 0;
+    padding: 100px 0px 0px 0px;
+}
+
+#slide4 h2 {
+    padding-top: 30px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit], button[type=button] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
